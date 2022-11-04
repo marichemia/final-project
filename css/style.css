@@ -94,7 +94,7 @@ a:hover {
 
 .eclipse {
     position: absolute;
-    left: 65%;
+    left: 55%;
     top: 2%;
     width: 465px;
     height: 465px;
@@ -104,7 +104,7 @@ a:hover {
 
 .page-heading {
     position: absolute;
-    left: 68%;
+    left: 58%;
     top: 14%;
 
     text-transform: uppercase;
@@ -132,5 +132,5 @@ a:hover {
     font-weight: 700;
     position: absolute;
     bottom: 5%;
-    left: 70%;
+    left: 60%;
 }
