@@ -90,6 +90,7 @@ a:hover {
     width: 100%;
     height: 1000px;
     background-image: url(../images/banner-img2.jpg);
+    background-size: cover;
 }
 
 .eclipse {
