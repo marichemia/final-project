@@ -1,3 +1,19 @@
+/* modal window for feedback */
+const modal = document.getElementById('modal');
+const close = document.getElementById('close');
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', function () {
+    modal.classList.remove('none');
+})
+
+close.addEventListener('click', function () {
+    modal.classList.add('none');
+})
+
+
+
+
 
 
 

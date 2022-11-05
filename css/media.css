@@ -33,3 +33,12 @@
         width: auto;
     }
 }
+
+
+@media (max-width: 1160px) {
+    .testimonials-blocks {
+        flex-direction: column;
+        height: auto;
+        width: auto;
+    }
+}

@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+a:hover {
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #448606;
+    color: #b0f809;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -74,10 +83,6 @@ header {
     color: #09f815;
 
     margin-right: 50px;
-}
-
-a:hover {
-    color: #FFFFFF;
 }
 
 .active-link {
@@ -237,7 +242,7 @@ a:hover {
     height: 391px;
     border: double 3px transparent;
     border-radius: 20px;
-    background-image: linear-gradient(#F1F3F2, #F1F3F2), linear-gradient(290deg, #FEBDAB, #F3A9F8, #E0D8F0, #EAF7FE, #EAF7FE);
+    background-image: linear-gradient(#F1F3F2, #F1F3F2), linear-gradient(290deg, #09f815, #448606, #b0f809, #EAF7FE);
     background-origin: border-box;
     background-clip: content-box, border-box;
 
@@ -277,10 +282,10 @@ a:hover {
     height: 310px;
 
     font-family: 'Roboto Regular', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
-    line-height: 18px;
-    color: #767474;
+    line-height: 22px;
+    color: #000000;
 
     margin-left: 10px;
 }
@@ -289,19 +294,71 @@ a:hover {
 .feedback-btn {
     width: 298px;
     height: 54px;
-    border-radius: 5px;
+    border-radius: 25px;
     border: none;
-    background-image: linear-gradient(to right, #F9804B, #FE9013);
-
+    background-color: #b0f809;
     text-transform: uppercase;
     font-family: 'Roboto Regular', sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 22.5px;
-    color: #FFFFFF;
+    color: #448606;
     text-align: center;
 
     align-self: flex-start;
     position: relative;
     top: 20px;
+}
+
+.fa-circle-xmark {
+    color: #000000;
+    position: absolute;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.modal {
+    position: fixed;
+    bottom: 2px;
+    right: 0;
+    width: 450px;
+    height: 200px;
+
+    background-color: #F1F3F2;
+    border-radius: 25px;
+    border: solid 5px #b0f809;
+    padding: 10px;
+}
+
+.modal p {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+input {
+    width: 350px;
+    height: 100px;
+    margin-top: 10px;
+    border: solid 2px #b0f809;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    background-color: #b0f809;
+    color: #000000;
+    width: 100px;
+    height: 30px;
+    font-family: 'Roboto Regular', sans-serif;
+    font-weight: 600;
+}
+
+.none {
+    display: none;
 }
