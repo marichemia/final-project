@@ -36,9 +36,20 @@
 
 
 @media (max-width: 1160px) {
+    .testimonials-blocks :nth-child(4) {
+        display: none;
+    }
+
     .testimonials-blocks {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+@media (max-width: 1360px) {
+    .footer-nav {
         flex-direction: column;
-        height: auto;
-        width: auto;
     }
 }

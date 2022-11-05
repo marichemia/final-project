@@ -2,6 +2,8 @@
 const modal = document.getElementById('modal');
 const close = document.getElementById('close');
 const btn = document.getElementById('btn');
+const submit = document.getElementById('submit');
+const feedback = document.getElementsByClassName('feedback')[0];
 
 btn.addEventListener('click', function () {
     modal.classList.remove('none');
@@ -10,6 +12,16 @@ btn.addEventListener('click', function () {
 close.addEventListener('click', function () {
     modal.classList.add('none');
 })
+
+submit.addEventListener('click', function () {
+    feedback.classList.add('none');
+    submit.classList.add('none');
+    modal.innerHTML = '<p class="thank-u-txt">Your Feedback Has Been Submitted!<br>Thank You</p>'
+    setTimeout(function () {
+        modal.classList.add('none');
+    }, 1500)
+})
+
 
 
 
