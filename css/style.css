@@ -85,7 +85,7 @@ a:hover {
 }
 
 
-.panda-img {
+.banner-img {
     position: relative;
     width: 100%;
     height: 1000px;
@@ -196,3 +196,112 @@ a:hover {
 }
 
 /*section 3*/
+
+.section-3 {
+    width: 1160px;
+    height: 575px;
+
+    margin-top: 140px;
+    margin-bottom: 140px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-3 h3 {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    color: #333B41;
+    text-align: center;
+}
+
+.testimonials-blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 392px;
+
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+
+    width: 268px;
+    height: 391px;
+    border: double 3px transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#F1F3F2, #F1F3F2), linear-gradient(290deg, #FEBDAB, #F3A9F8, #E0D8F0, #EAF7FE, #EAF7FE);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #000000;
+
+    margin-left: 10px;
+}
+
+.location-time {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #BDBDBD;
+
+    margin-left: 10px;
+}
+
+.block p {
+    width: 237px;
+    height: 310px;
+
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #767474;
+
+    margin-left: 10px;
+}
+
+
+.feedback-btn {
+    width: 298px;
+    height: 54px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(to right, #F9804B, #FE9013);
+
+    text-transform: uppercase;
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22.5px;
+    color: #FFFFFF;
+    text-align: center;
+
+    align-self: flex-start;
+    position: relative;
+    top: 20px;
+}
