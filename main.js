@@ -27,12 +27,23 @@ if (location.hash === '#animals') {
     document.getElementsByClassName('section-2')[0].classList.add('none');
     document.getElementsByClassName('section-3')[0].classList.add('none');
     document.getElementsByClassName('banner-img')[0].style.backgroundImage = `url(images/peacock.webp)`
+    document.getElementsByClassName('flower-1')[0].classList.add('none');
+    document.getElementsByClassName('donate')[0].classList.add('none');
+
+} else if (location.hash === '#donate') {
+    document.getElementsByClassName('banner-img')[0].style.backgroundImage = `url(images/lemuri.jpg)`
+    document.getElementsByClassName('section-2')[0].classList.add('none');
+    document.getElementsByClassName('section-3')[0].classList.add('none');
+    document.getElementsByClassName('flower-1')[0].classList.add('none');
+    document.getElementsByClassName('our-animals')[0].classList.add('none');
+    document.getElementsByClassName('donate')[0].classList.remove('none');
 
 } else {
     document.getElementsByClassName('our-animals')[0].classList.add('none');
     document.getElementsByClassName('section-2')[0].classList.remove('none');
     document.getElementsByClassName('section-3')[0].classList.remove('none');
     document.getElementsByClassName('banner-img')[0].style.backgroundImage = `url(images/banner-img2.jpg)`
+    document.getElementsByClassName('donate')[0].classList.add('none');
 }
 
 /* modal window for feedback */
